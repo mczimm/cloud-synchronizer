@@ -1,4 +1,4 @@
-package google_drive
+package icloud
 
 import (
 	"github.com/mczimm/cloud-synchronizer/core"

@@ -16,3 +16,8 @@ func NewSyncManager() *SyncManager {
 func (sm *SyncManager) RegisterService(name string, service CloudService) {
 	sm.services[name] = service
 }
+
+func (sm *SyncManager) GetService(name string) (CloudService, bool) {
+	service, exists := sm.services[name]
+	return service, exists
+}
