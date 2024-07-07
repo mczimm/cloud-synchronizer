@@ -1,6 +1,6 @@
 package google_drive
 
-import "github.com/mczim/cloud-synchronizer/core"
+import "github.com/mczimm/cloud-synchronizer/core"
 
 type GoogleDriveAdapter struct {
 	// Add fields as needed, e.g., for authentication
